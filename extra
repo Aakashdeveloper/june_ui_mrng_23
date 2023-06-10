@@ -1,0 +1,32 @@
+https://github.com/ (Create Account)
+https://github.com/Aakashdeveloper (Follow)
+https://code.visualstudio.com/ (Install)
+https://git-scm.com/downloads (Install)
+
+extension
+> vscode-icon
+> spellCheck
+> TabNine > Ai extension used for suggestion
+> Githistory
+> GitLens
+
+HTML             >> Raw structure
+CSS              >> Look and Feel
+Bootstarp 3/4/5  >> Responsive (fit on every screen)
+Javascript       >> Dynamic/functionality
+Basic Jquery     >> Aniation
+
+
+Html> Main tag/ wrapper
+Head > ALl the linking of scripts (JS,Css)
+body > What appers to users
+
+
+///////
+Block Level element
+> Every time start from new line
+> Consume the whole width of the screen
+
+inline
+> Start in the same line
+> Only occupies the space which is required
