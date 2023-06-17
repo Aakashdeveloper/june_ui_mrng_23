@@ -43,3 +43,49 @@ Hobbies
 Map
 Footer
 Socail Link
+
+/////////
+Inline
+Styletag
+stylesheet
+
+Inline > Styletag > stylesheet
+
+//inline
+{
+    height:400px;
+    background:green
+}
+
+//styletag
+
+{
+    width:300px;
+    background:orange
+    font-size:30px;
+}
+
+//stylesheet
+{
+     border:1px black;
+     font-size:40px;
+     height:500px
+
+}
+
+
+{
+    height:400px;
+    background:green;
+    width:300px;
+    font-size:30px;
+    border:1px black;
+}
+
+
+tagname
+classname > if you want to target multiple element with same property
+id > if you want to target something unique
+
+https://imgbb.com/
+https://i.ibb.co/nDgNJcd/drinks.png
