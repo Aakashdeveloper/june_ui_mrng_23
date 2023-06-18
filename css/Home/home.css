@@ -26,15 +26,138 @@ header{
 }
 
 #search{
-    height:400px;
-    border: 5px dotted green;
+    height:450px;
+    /* border: 5px dotted green; */
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 450px */
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+}
+
+.logo > span{
+    margin-left: 21%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 23%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.dropdown{
+    height: 60px;
+    width:50%;
+    /* border: 2px solid white; */
+    margin-left: 29%;
+    margin-top: 23%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#restSelect{
+    width:59%
 }
 
 #quickSearch{
-    height:600px;
-    border: 10px double orange;
+    /* height:600px; */
+    /* border: 10px double orange; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
 }
+
+.quickHeading{
+    color:#3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.quicksubHeading{
+    color:gray;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    /* border: 2px solid rgb(148, 86, 184); */
+    float: left;
+    box-shadow: 10px 20px 10px black;
+}
+
+.tileComponent1{
+    width:52%;
+    float: left;
+}
+
+.tileComponent1 > img{
+    height:100%;
+    width:100%; 
+}
+
+.tileComponent2{
+    width:45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.compHeading{
+    font-size: 25px;
+    color:#3b2632;
+    font-weight: bold;
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color:gray;
+}
+
 footer{
-    height:60px;
-    border: 10px groove rgb(148, 86, 184);
+    height:120px;
+    background-color: #3b2632;
+    color:white;
+    text-align:center;
+}
+
+.footDiv{
+    float: left;
+    width:30%;
+    border-right: 1px solid white;
+}
+
+ul{
+    list-style: none;
+}
+.noborder{
+    border:none
 }

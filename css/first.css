@@ -24,7 +24,6 @@ header{
     background-color:#55D4CE;
     float:left;
     margin-left:3%;
-    overflow: scroll;
 }
 .yellow{
     background-color:#dfdfb8
@@ -42,4 +41,12 @@ header{
 .card > img{
     height:200px;
     width:100%
+}
+
+#image{
+    height:200px;
+}
+#content{
+    height:200px;
+    overflow: scroll; 
 }
