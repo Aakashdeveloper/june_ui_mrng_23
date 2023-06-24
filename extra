@@ -98,3 +98,6 @@ position: relative
 
 https://forms.gle/e2BkzhAPS7ur6fDq7
 https://forms.gle/bwSuxYmCpZ4sc84o6
+
+git config --global user.name 
+git config --global user.password  

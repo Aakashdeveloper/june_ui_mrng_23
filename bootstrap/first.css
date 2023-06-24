@@ -1,0 +1,27 @@
+.heart{
+    color:red;
+    font-size:30px;
+    animation: beat 2s infinite;
+}
+
+@keyframes beat {
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+.cloud{
+    color:skyblue;
+    font-size:30px;
+}
+
+.btn-purple{
+    background-color: purple;
+}

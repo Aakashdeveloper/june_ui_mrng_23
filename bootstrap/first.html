@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="first.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Developer Funnel</a>
+                </div>
+                <div class="navbar-collapse collapse" id="mynav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+               
+            </div> 
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Bootstrap</h1>
+                <p>
+                    111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <button>Click Me</button>
+                <button class="btn btn-success">Click Me</button>
+                <button class="btn btn-danger">Click Me</button>
+                <button class="btn btn-warning">Click Me</button>
+                <button class="btn btn-info">Click Me</button>
+                <button class="btn btn-info btn-purple">My Button</button>
+                <button class="btn btn-primary" data-target="#myPop" data-toggle="modal">London</button>
+            </div>
+            <hr/>
+            <span class="glyphicon glyphicon-heart heart"></span>
+            <span class="glyphicon glyphicon-cloud cloud"></span>
+            <hr/>
+            <div id="myPop" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">About London</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                                into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Students
+                </div>
+                <div class="panel-body">
+                    <table class="table  table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>City</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="success">
+                                <td>1</td>
+                                <td>Rohit</td>
+                                <td>Delhi</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Nikita</td>
+                                <td>Boston</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>John</td>
+                                <td>Inssburg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <img src="food-wallpaper.png" alt="wallpaper" class="img-responsive"/>
+        </div>
+    </body>
+
+</html>
