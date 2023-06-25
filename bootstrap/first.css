@@ -25,3 +25,34 @@
 .btn-purple{
     background-color: purple;
 }
+
+.first{
+    height: 200px;
+    background-color:rgb(184, 245, 184)
+}
+
+.second{
+    height: 200px;
+    background-color:rgb(184, 236, 245)
+}
+
+.third{
+    height: 200px;
+    background-color:rgb(184, 193, 245)
+}
+.fourth{
+    height: 200px;
+    background-color:rgb(242, 184, 245)
+}
+.fifth{
+    height: 200px;
+    background-color:rgb(245, 184, 184)
+}
+.sixth{
+    height: 200px;
+    background-color:rgb(245, 198, 184)
+}
+.seventh{
+    height: 200px;
+    background-color:rgb(239, 245, 184)
+}
