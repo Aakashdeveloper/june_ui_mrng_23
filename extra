@@ -130,12 +130,20 @@ xxl > 1400px
 Math
 letconst
 stroage
-stringopt
 ifelse
 function
-calc
 dom
+calc
+
 light dark
 coupon code
 array
+stringopt
 form validation
+loop
+
+Rest
+Spread
+JSON
+weatherapp 
+Jquery

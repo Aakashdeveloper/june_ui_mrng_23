@@ -32,6 +32,15 @@ parseFloat(a)+parseFloat(b)
 22.101
 
 
+//es6
+var a = "10.111"
+var b = "11.99"
+undefined
+Number(a)
+10.111
+Number(b)
+11.99
+
 
 = // assignment
 == // compare the data
