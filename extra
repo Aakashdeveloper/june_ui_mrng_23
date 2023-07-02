@@ -163,3 +163,5 @@ Jquery
 > Go inside folder
 > json-server --watch data.json --port 9999
 
+
+https://www.netlify.com/
