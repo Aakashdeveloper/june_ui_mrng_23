@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="forms.css" rel="stylesheet" type="text/css"/>
+        <script src="forms.js"></script>
+    </head>
+    <body>
+        <hr/>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form action="http://localhost:9999/employee" method="POST">
+                        <div class="form-group">
+                            <label>EmployeeId</label>
+                            <input class="form-control" name="id" id="eid" readonly/>
+                        </div>
+                        <div class="form-group fdiv">
+                            <label class="control-label">Name</label>
+                            <input class="form-control" name="firstName" 
+                            id="fname" onblur="validateFname()"/>
+                            <p id="fout"></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input class="form-control" name="email" 
+                            id="email" oninput="validateEmail()"/>
+                            <p id="eout"></p>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            window.onload=getId()
+        </script>
+    </body>
+</html>
+

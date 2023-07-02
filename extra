@@ -134,16 +134,32 @@ ifelse
 function
 dom
 calc
-
 light dark
 coupon code
 array
 stringopt
 form validation
-loop
+Dummy api
+Object
+JSON
 
+loop
 Rest
 Spread
-JSON
-weatherapp 
+Dynamic Drop (Promise ,async await, fetch)
+weatherapp > Ajax
 Jquery
+
+
+///////
+//One time
+> First create one json file
+> Install https://nodejs.org/en
+> open cmd as adminstrator
+> Run npm i -g json-server
+
+//Every time you want to use app
+> Open terminal
+> Go inside folder
+> json-server --watch data.json --port 9999
+

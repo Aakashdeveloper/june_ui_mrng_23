@@ -2,6 +2,7 @@
     <head>
         <title>Home Page</title>
         <link rel="stylesheet" href="home.css"/>
+        <script src="first.js"></script>
     </head>
     <body>
         <header>
@@ -20,7 +21,12 @@
                 </a>
             </div>
         </header>
+        <div id="coupons">
+            <button onClick="closeCoupon()">&times</button>
+        </div>
         <div id="search">
+           
+           
             <div class="logo">
                 <span>D!</span>
             </div>
@@ -154,5 +160,8 @@
                 </ul>
             </div>
         </footer>
+        <script>
+            window.onload = showCoupons()
+        </script>
     </body>
 </html>
