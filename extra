@@ -142,11 +142,11 @@ form validation
 Dummy api
 Object
 JSON
-
 loop
 Rest
 Spread
 Dynamic Drop (Promise ,async await, fetch)
+
 weatherapp > Ajax
 Jquery
 
@@ -165,3 +165,8 @@ Jquery
 
 
 https://www.netlify.com/
+
+
+http://3.17.216.66:4000/location
+http://3.17.216.66:4000/restaurants
+http://3.17.216.66:4000/restaurant?stateId=3

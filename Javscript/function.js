@@ -47,3 +47,30 @@ const add = (a,b) => {
 
 add(2,3)
 5
+
+
+///rest
+let sum = 0
+function add(...args){
+    for(data of args){
+        sum = sum+data
+    }
+   
+}
+add(1,4,5,6,8)
+
+sum
+24
+
+/////////Spread////
+
+var a = ["hii","Hello"]
+var b = [1,4,6,8,9]
+
+var c = [...a,...b]
+
+
+var a = ["hii","Hello"]
+var b = [1,4,6,...a,8,9]
+
+

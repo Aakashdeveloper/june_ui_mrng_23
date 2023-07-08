@@ -1,0 +1,285 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:60px;
+    /*border: 5px solid hotpink;*/
+    background-color: #3b2632;
+}
+#brand{
+    float: left;
+    font-size: 30px;
+    color:white;
+    margin-left:1%;
+    margin-top:1%;
+}
+
+#social{
+    float: right;
+}
+.slogo{
+    height:50px;
+    width:50px
+}
+
+#search{
+    height:450px;
+    /* border: 5px dotted green; */
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 450px */
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+    animation: revolve 10s infinite;
+}
+
+@keyframes revolve {
+    0%{
+        transform:rotate(30deg);
+        margin-left:2%
+    }
+    25%{
+        transform:rotate(90deg);
+        margin-left:20%
+    }
+    50%{
+        transform:rotate(180deg);
+        margin-left:40%
+    }
+    75%{
+        transform:rotate(270deg);
+        margin-left:80%
+    }
+    100%{
+        transform:rotate(360deg);
+        margin-left:40%
+    }
+}
+
+.logo > span{
+    margin-left: 21%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 23%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.dropdown{
+    height: 60px;
+    width:50%;
+    /* border: 2px solid white; */
+    margin-left: 29%;
+    margin-top: 23%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#restSelect{
+    width:59%
+}
+
+#quickSearch{
+    /* height:600px; */
+    /* border: 10px double orange; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.quickHeading:hover{
+    font-size:35px;
+    color:palevioletred
+}
+
+.quicksubHeading{
+    color:gray;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    /* border: 2px solid rgb(148, 86, 184); */
+    float: left;
+    box-shadow: 10px 20px 10px black;
+    animation: dance 5s infinite;
+}
+
+@keyframes dance{
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    40% {transform:scale(1.1)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: rotate(-20deg); */
+    /* transform: skewY(20deg) */
+    /* transform: translate(100px, 100px) */
+
+}
+
+.tileComponent1{
+    width:52%;
+    float: left;
+}
+
+.tileComponent1 > img{
+    height:100%;
+    width:100%; 
+}
+
+.tileComponent2{
+    width:45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.compHeading{
+    font-size: 25px;
+    color:#3b2632;
+    font-weight: bold;
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color:gray;
+}
+
+footer{
+    height:120px;
+    background-color: #3b2632;
+    color:white;
+    text-align:center;
+}
+
+.footDiv{
+    float: left;
+    width:30%;
+    border-right: 1px solid white;
+}
+
+ul{
+    list-style: none;
+}
+.noborder{
+    border:none
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:#f5b8d9
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:#d2baef
+    }
+}
+
+@media screen and (max-width:1220px){
+    body{
+        background-color:#bac7ef
+    }
+    .dropdown{
+        margin-top: 31%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:#baefe3
+    }
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:#efcdba
+    }
+    .tileContainer{
+        width:80%
+    }
+    .dropdown{
+        margin-top: 40%;
+        width: 89%;
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color:#efe8ba
+    }
+    .tileContainer{
+        width:100%
+    }
+    .dropdown{
+        margin-top: 60%;
+        width: 100%;
+        margin-left: 2%;
+    }
+    select {
+        width:90%
+    }
+    #restSelect {
+        width: 90%;
+    }
+}
+
+#coupons{
+    height:400px;
+    width:400px;
+    background-color:purple;
+    margin-left:36%;
+    margin-top:1%;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}

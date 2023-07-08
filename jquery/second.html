@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style>
+            #main{
+                height:300px;
+                width:300px;
+                background-color:teal;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                $('#color').click(() => {
+                    $('#one').css('color','red')
+                })
+                $('#hide').click(() => {
+                    $('#main').hide(3000)
+                })
+                $('#show').click(() => {
+                    $('#main').show(3000)
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <h1 id="one">This is from Jquery</h1>
+        <button id="color">Color</button>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <div id="main"></div>
+    </body>
+</html>
